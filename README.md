@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://nukerat.com">
-    <img src="https://i.imgur.com/Ufu2mvc.png" height="96">
+  <a href="https://github.com/nukeratframework/nukerat">
+    <img src=".github/banners/logo.png" height="80">
     <h3 style="font-size: 1.7rem;" align="center">NukeRat</h3>
   </a>
 </p>
@@ -15,11 +15,23 @@
   <a href="https://nukerat.com/docs/fast-setup"><strong>Tutorial</strong></a>
 </p>
 
-## NukeRat
+## About
 
-NukeRat is a post exploitation framework for advanced Red Team operations, focused on exploiting modern and complex environments. Some of its features and characteristics include:
+NukeRat is a post exploitation framework for advanced Red Team operations, focused on exploiting modern and complex environments. 
 
-| Feature | Description |
+<div align="center">
+  <a href=".github/banners/01.png">
+    <img
+        src=".github/banners/01.png"
+        style="width: 87rem; border-radius: 11px;"
+        alt="NukeRat"
+        title="NukeRat">
+  </a>
+</div>
+
+## Features
+
+| Item | Description |
 | --- | --- |
 | Armory | +550 adapted BOF and .NET utilities |
 | Communication | Custom C2 with external platforms (e.g. Telegram, Discord, etc.) |
@@ -32,36 +44,27 @@ NukeRat is a post exploitation framework for advanced Red Team operations, focus
 | AI | Integration with agents (DeepSeek, local, etc.) |
 | Reports | Executed commands, IOCs, and compromised hosts |
 
-<br/>
+## Installation
+```bash
+git clone https://github.com/nukeratframework/nukerat && cd nukerat && sudo bash install.sh all
+```
+
+## Tutorial
+For a quick start, see the 2 minute video tutorial teaching how to install NukeRat and create your first implant [https://www.youtube.com/watch?v=3dOcPoVXv30](https://www.youtube.com/watch?v=3dOcPoVXv30).
+
+*Click the image below to be redirected to the video tutorial.*
 
 <div align="center">
-  <a href=".github/banners/01.png">
+  <a href="https://www.youtube.com/watch?v=3dOcPoVXv30">
     <img
-        src=".github/banners/01.png"
+        src=".github/banners/play.png"
         style="width: 87rem; border-radius: 11px;"
         alt="NukeRat"
         title="NukeRat">
   </a>
 </div>
 
-## Fast setup (linux)
-**Installation**
-```bash
-git clone https://github.com/nukeratframework/nukerat && cd nukerat && sudo bash install.sh all
-```
-**Create operator key**
-```bash
-./nukerat.py server key add operator
-```
-**Server start**
-```bash
-./nukerat.py server start
-```
-**Client start**
-```bash
-./nukerat.py client start
-```
-For the full fast setup, from installation through implant creation, see [https://nukerat.com/docs/fast-setup](https://nukerat.com/docs/fast-setup).
+Or, if you prefer, see it through the documentation at [https://nukerat.com/docs/fast-setup](https://nukerat.com/docs/fast-setup).
 
 ## Documentation
 
